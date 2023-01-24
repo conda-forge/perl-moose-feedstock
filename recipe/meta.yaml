@@ -43,6 +43,7 @@ requirements:
     - perl-package-stash-xs
     - perl-data-optlist
     - perl-test-fatal
+    - perl-test-needs
     - perl-test-requires
     - perl-test-cleannamespaces
     - perl-scalar-list-utils # for List::Util. It's in core, but too old.
