@@ -1,6 +1,6 @@
 {% set name = "perl-moose" %}
-{% set version = "2.2201" %}
-{% set sha256 = "cd5ff9b4751f73ecb6874ba9761343d35737d4ddf5ff6b19c00d01af5ffc3eb2" %}
+{% set version = "2.2203" %}
+{% set sha256 = "fa7814acf4073fa434c148d403cbbf8a7b62f73ad396fa8869f3036d6e3241a7" %}
 
 package:
   name: {{ name }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  skip: true   # [win]
+  skip: true  # [win]
   number: 0
   run_exports:
     weak:
@@ -394,7 +394,7 @@ about:
   license_file:
     - {{ environ["PREFIX"] }}/man/man1/perlartistic.1
     - {{ environ["PREFIX"] }}/man/man1/perlgpl.1
-  summary: 'A postmodern object system for Perl 5'
+  summary: A postmodern object system for Perl 5
 
 extra:
   recipe-maintainers:
