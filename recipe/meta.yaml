@@ -1,6 +1,6 @@
 {% set name = "perl-moose" %}
-{% set version = "2.2203" %}
-{% set sha256 = "fa7814acf4073fa434c148d403cbbf8a7b62f73ad396fa8869f3036d6e3241a7" %}
+{% set version = "2.2205" %}
+{% set sha256 = "eb2779795f22140f5ed8c5c37a7dada204137f12d583cb4fc9a64b76ac038fea" %}
 
 package:
   name: {{ name }}
