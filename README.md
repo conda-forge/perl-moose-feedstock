@@ -1,11 +1,24 @@
+About perl-moose-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-moose-feedstock/blob/main/LICENSE.txt)
+
+
 About perl-moose
-================
+----------------
 
 Home: http://moose.perl.org/
 
 Package license: GPL-1.0-or-later OR Artistic-1.0-Perl
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-moose-feedstock/blob/main/LICENSE.txt)
+Summary: A postmodern object system for Perl 5
+
+About perl-moose
+----------------
+
+Home: http://moose.perl.org/
+
+Package license: GPL-1.0-or-later OR Artistic-1.0-Perl
 
 Summary: A postmodern object system for Perl 5
 
