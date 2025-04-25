@@ -1,0 +1,14 @@
+diff -ru a/Makefile.PL b/Makefile.PL
+--- a/Makefile.PL	2021-11-07 03:35:17
++++ b/Makefile.PL	2025-04-26 00:03:54
+@@ -8,9 +8,6 @@
+ 
+ # Secondary compile testing via ExtUtils::HasCompiler
+ use lib 'inc';
+-use ExtUtils::HasCompiler 0.014 'can_compile_loadable_object';
+-die 'This distribution requires a working compiler'
+-    unless can_compile_loadable_object(quiet => 1);
+ 
+ use ExtUtils::MakeMaker;
+ check_conflicts();
+Only in b: Makefile.PL~
